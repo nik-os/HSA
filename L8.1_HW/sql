@@ -1,0 +1,35 @@
+# READ UNCOMMITTED
+## Phantom read
+### Transaction 1
+SELECT SUM(row2) FROM table;
+### Transaction 2
+INSERT INTO table (row1,row2) VALUES (10,15);
+COMMIT;
+### Transaction 1
+SELECT SUM(row2) FROM table;
+
+# READ COMMITTED
+## Non repeatable read
+### Transaction 1
+SELECT row2 FROM table WHERE row1=1;
+### Transaction 2
+UPDATE table SET row2=row2+1 WHERE row1=1;
+COMMIT;
+### Transaction 1
+SELECT row2 FROM table WHERE row1=1;
+
+# REPEATABLE READ
+## Dirty read
+### Transaction 1
+UPDATE table SET row2=row2+1 WHERE row1=1;
+### Transaction 2
+SELECT row2 FROM table WHERE row1=1;
+### Transaction 1
+ROLLBACK WORK;
+
+# SERIALIZABLE
+## Lost update
+### Transaction 1
+UPDATE table SET row2=row2+10 WHERE row1=1;
+### Transaction 2
+UPDATE table SET row2=row2+15 WHERE row1=1;

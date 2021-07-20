@@ -1,0 +1,17 @@
+services:    
+    beanstalk:
+        image: schickling/beanstalkd
+        ports:
+            - "11300:11300"
+    redis_rdb:
+        image: "redis:alpine"
+        ports:
+            - "6379:6379"
+        volumes: 
+            - ./redis_rdb.conf:/usr/local/etc/redis/redis.conf
+    redis_aof:
+        image: "redis:alpine"
+        ports:
+            - "6378:6379"
+        volumes: 
+            - ./redis_aof.conf:/usr/local/etc/redis/redis.conf

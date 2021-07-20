@@ -1,0 +1,24 @@
+services:
+  redis-master:
+    image: 'bitnami/redis:latest'
+    ports:
+      - '6329:6379'
+    environment:
+      - REDIS_REPLICATION_MODE=master
+      - ALLOW_EMPTY_PASSWORD=yes
+    volumes:
+      - './docker-volumes/redis-master:/bitnami'
+
+  redis-slave:
+    image: 'bitnami/redis:latest'
+    ports:
+      - '6379'
+    depends_on:
+      - redis-master
+    volumes:
+      - './docker-volumes/redis-slave:/bitnami'
+    environment:
+      - REDIS_REPLICATION_MODE=slave
+      - REDIS_MASTER_HOST=redis-master
+      - REDIS_MASTER_PORT_NUMBER=6379
+      - ALLOW_EMPTY_PASSWORD=yes

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdf6868d-8d87-4109-9a74-b2a29377aa3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/HSA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/composer.phar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/pull.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/pull_redis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/redis_aof.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/redis_rdb.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/send.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/send_redis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/.github/workflows/docs.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/.scrutinizer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/dockerfiles/Dockerfile-beanstalkd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/dockerfiles/Dockerfile-phpunit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/phpcs.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/phpdoc.dist.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/psalm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/scripts/build_phar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/AbstractCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/BuryCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/DeleteCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/IgnoreCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/JobCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/KickCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/KickJobCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/ListTubeUsedCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/ListTubesCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/ListTubesWatchedCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/PauseTubeCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/PeekCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/PeekJobCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/PutCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/ReleaseCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/ReserveCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/ReserveWithTimeoutCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/StatsCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/StatsJobCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/StatsTubeCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/TouchCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/TubeCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/UseCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Command/WatchCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Connection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Contract/CommandInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Contract/JobIdInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Contract/PheanstalkInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Contract/ResponseInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Contract/ResponseParserInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Contract/SocketFactoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Contract/SocketInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Exception/ClientBadFormatException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Exception/ClientException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Exception/CommandException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Exception/ConnectionException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Exception/DeadlineSoonException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Exception/JobNotFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Exception/JobTooBigException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Exception/ServerBadFormatException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Exception/ServerDrainingException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Exception/ServerException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Exception/ServerInternalErrorException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Exception/ServerOutOfMemoryException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Exception/ServerUnknownCommandException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Exception/SocketException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Job.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/JobId.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Pheanstalk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Response/ArrayResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Socket/FileSocket.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Socket/FsockopenSocket.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Socket/SocketSocket.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Socket/StreamSocket.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/Socket/WriteHistory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/SocketFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk/src/YamlResponseParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12_HW/GeoIP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12_HW/GeoIP.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12_HW/csv2dat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12_HW/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12_HW/geo1.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12_HW/geo2nginx.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12_HW/maxmind.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12_HW/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12_HW/nginx/default/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12_HW/nginx/uk/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12_HW/nginx/us/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L18_HW/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/.idea/docker-influxdb-grafana.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/grafana.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/MANIFEST.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/dark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/dark.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/img/Logo_D3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/img/logo-credit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/libs/d3gauge.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/libs/d3gauge.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/light.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/light.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/module.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/module.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/partials/editor.mappings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/partials/editor.options.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/partials/editor.radialmetrics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/partials/editor.thresholding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/partials/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/plugin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/screenshots/alt-gauge-limits.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/screenshots/alt-gauge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/screenshots/default-gauge-all-thresholds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/screenshots/default-gauge-w-threshold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/screenshots/default-gauge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/screenshots/options-limits.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/screenshots/options.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/screenshots/radialmetrics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/screenshots/thresholding.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/styles/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/briangann-gauge-panel/styles/light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-clock-panel/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-clock-panel/MANIFEST.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-clock-panel/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-clock-panel/img/clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-clock-panel/img/countdown1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-clock-panel/img/screenshot-clock-options.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-clock-panel/img/screenshot-clocks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-clock-panel/img/screenshot-showcase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-clock-panel/module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-clock-panel/module.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-clock-panel/module.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-clock-panel/plugin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-simple-json-datasource/MANIFEST.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-simple-json-datasource/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-simple-json-datasource/css/query-editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-simple-json-datasource/datasource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-simple-json-datasource/datasource.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-simple-json-datasource/img/simpleJson_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-simple-json-datasource/module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-simple-json-datasource/module.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-simple-json-datasource/partials/annotations.editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-simple-json-datasource/partials/config.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-simple-json-datasource/partials/query.editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-simple-json-datasource/partials/query.options.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-simple-json-datasource/plugin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-simple-json-datasource/query_ctrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/grafana-simple-json-datasource/query_ctrl.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/MANIFEST.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/img/plotly_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/img/screenshot-multiple-trace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/img/screenshot-options-new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/img/screenshot-options.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/img/screenshot-scatter-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/img/screenshot-scatter-3d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/img/screenshot-scatter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/img/screenshot-single-trace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/lib/plotly-cartesian.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/lib/plotly.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/module.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/partials/module.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/partials/tab_display.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/partials/tab_traces.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/grafana/data/plugins/natel-plotly-panel/plugin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/data/_internal/_series/00/0000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/data/_internal/_series/01/0000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/data/_internal/_series/02/0000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/data/_internal/_series/03/0000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/data/_internal/_series/04/0000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/data/_internal/_series/05/0000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/data/_internal/_series/06/0000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/data/_internal/_series/07/0000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/data/_internal/monitor/1/fields.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/data/mydb/_series/00/0000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/data/mydb/_series/01/0000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/data/mydb/_series/02/0000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/data/mydb/_series/03/0000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/data/mydb/_series/04/0000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/data/mydb/_series/05/0000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/data/mydb/_series/06/0000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/data/mydb/_series/07/0000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/data/mydb/autogen/2/fields.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/meta/meta.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/wal/_internal/monitor/1/_00001.wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/docker-volumes/influxdb-1/data/wal/mydb/autogen/2/_00001.wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/myconf-1.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2_HW/myconf.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3_HW/ga.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L7_HW/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L7_HW/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L7_HW/web/img02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L8.1_HW/sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L9.1_HW/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L9.1_HW/docker-volumes/redis-master/redis/data/appendonly.aof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L9.1_HW/docker-volumes/redis-master/redis/data/dump.rdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L9.1_HW/docker-volumes/redis-slave/redis/data/appendonly.aof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L9.1_HW/docker-volumes/redis-slave/redis/data/dump.rdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2_HW/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/L2_HW/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2_HW/telegraf.conf" beforeDir="false" afterPath="$PROJECT_DIR$/L2_HW/telegraf.conf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/L10_HW/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/L10_HW/vendor/pda/pheanstalk" />
+      <path value="$PROJECT_DIR$/L10_HW/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1vZjZ5NCcDlB6CR3CvKCWdbFeiy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdf6868d-8d87-4109-9a74-b2a29377aa3a" name="Default Changelist" comment="" />
+      <created>1626776558389</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626776558389</updated>
+      <workItem from="1626776559859" duration="714000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,38 @@
+mysqldb:
+    image: mysql
+    ports:
+    - 3316:3306
+    environment:
+    - MYSQL_ROOT_PASSWORD=p@ssw0rd1
+    - MYSQL_DATABASE=db_1
+    - MYSQL_USER=db_user
+    - MYSQL_PASSWORD=db_pass
+    volumes:
+    - /Users/nikita/docker-volumes/mysql:/var/lib/mysql
+    - mysql_config:/etc/mysql
+
+mysqldb_1:
+    image: mysql
+    ports:
+    - 3326:3306
+    environment:
+    - MYSQL_ROOT_PASSWORD=p@ssw0rd1
+    - MYSQL_DATABASE=db_1
+    - MYSQL_USER=db_user
+    - MYSQL_PASSWORD=db_pass
+    volumes:
+    - /Users/nikita/docker-volumes/mysql:/var/lib/mysql
+    - mysql_config:/etc/mysql
+
+mysqldb_2:
+    image: mysql
+    ports:
+    - 3336:3306
+    environment:
+    - MYSQL_ROOT_PASSWORD=p@ssw0rd1
+    - MYSQL_DATABASE=db_2
+    - MYSQL_USER=db_user
+    - MYSQL_PASSWORD=db_pass
+    volumes:
+    - /Users/nikita/docker-volumes/mysql:/var/lib/mysql
+    - mysql_config:/etc/mysql
